@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-const GITHUB = 'https://github.com/defconradio/localplebs'
-const PLAY_STORE = 'https://play.google.com/store/apps/details?id=localplebs'
+const RELEASE = 'https://github.com/defconradio/localpleb/releases/download/v1.0.0-alpha1/app-release.apk'
+const README  = 'https://github.com/defconradio/localplebs'
 
 function getInitialTheme() {
   // default to dark unless user previously selected light
@@ -46,7 +46,8 @@ export default function Main() {
       <section style={{marginTop: 18}}>
         <h2>Links</h2>
         <ul>
-          <li><a href={GITHUB} target="_blank" rel="noopener noreferrer">Source on GitHub</a></li>
+          <li><a href={RELEASE} target="_blank" rel="noopener noreferrer">Download</a></li>
+          <li><a href={README} target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </section>
 
