@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-const RELEASE = 'https://github.com/defconradio/localpleb/releases/download/v1.0.0-alpha1/app-release.apk'
+const DOWNLOAD = 'https://github.com/defconradio/localpleb/releases/download/v1.0.0-alpha1/app-release.apk'
+const RELEASES = 'https://github.com/defconradio/localpleb/releases'
 const README  = 'https://github.com/defconradio/localplebs'
 
 function getInitialTheme() {
@@ -46,8 +47,9 @@ export default function Main() {
       <section style={{marginTop: 18}}>
         <h2>Links</h2>
         <ul>
-          <li><a href={RELEASE} target="_blank" rel="noopener noreferrer">Download</a></li>
-          <li><a href={README} target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href={DOWNLOAD} target="_blank" rel="noopener noreferrer">Android APK Download</a></li>
+          <li><a href={RELEASES} target="_blank" rel="noopener noreferrer">Andorid Releases</a></li>
+          <li><a href={README} target="_blank" rel="noopener noreferrer">Readme</a></li>
         </ul>
       </section>
 
