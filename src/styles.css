@@ -57,4 +57,7 @@ p{color:var(--muted)}
 
 .logo{display:inline-block;margin-right:10px;font-size:1.25em;line-height:1}
 
+.footer{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.04);color:var(--muted);font-size:0.95rem}
+.footer p{margin:0}
+
 code{background:rgba(255,255,255,0.03);padding:2px 6px;border-radius:4px;color:var(--accent)}

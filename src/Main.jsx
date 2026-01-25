@@ -35,12 +35,11 @@ export default function Main() {
       <p>Alpha — proof of concept app for Nostr-powered local connections.</p>
 
       <section>
-        <h2>Screenshots / GIF</h2>
-        <p>Repository README has no hosted images; showing placeholders you can replace.</p>
+        <h2>local plebs around the world!</h2>
         <div className="cards">
+          <img alt="demo gif" src="/imgs/1.gif" style={{width: 260, height: 520, objectFit: 'cover'}}/>
           <img alt="screenshot 1" src="/imgs/2.jpg" style={{width: 260, height: 520, objectFit: 'cover'}}/>
           <img alt="screenshot 2" src="/imgs/3.jpg" style={{width: 260, height: 520, objectFit: 'cover'}}/>
-          <img alt="demo gif" src="/imgs/1.gif" style={{width: 260, height: 520, objectFit: 'cover'}}/>
         </div>
       </section>
 
@@ -48,14 +47,16 @@ export default function Main() {
         <h2>Links</h2>
         <ul>
           <li><a href={GITHUB} target="_blank" rel="noopener noreferrer">Source on GitHub</a></li>
-          <li><a href={PLAY_STORE} target="_blank" rel="noopener noreferrer">Google Play Store (placeholder)</a></li>
         </ul>
       </section>
 
       <section style={{marginTop: 18}}>
-        <h2>Notes</h2>
-        <p>If you give me the real screenshots/GIF URLs or files, I'll replace the placeholders and add thumbnails.</p>
+        <h2>Disclaimer</h2>
+        <p>This is an alpha release and should only be used for testing and proof of concept purposes. Features and security are experimental and may change.</p>
       </section>
+      <footer className="footer">
+        <p>Made with <span role="img" aria-label="heart">❤️</span> for the Nostr community.</p>
+      </footer>
     </main>
   )
 }
