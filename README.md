@@ -1,6 +1,6 @@
 # Plebs Web
 
-Simple Vite + React scaffold prepared for Vercel deployment.
+Simple  Vite + React scaffold prepared for Vercel deployment.
 
 Getting started
 

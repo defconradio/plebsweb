@@ -30,12 +30,12 @@ export default function Main() {
 
       <h1>
         <span className="logo" role="img" aria-label="chili pepper">🌶️</span>
-        LocalPlebs
+        LocalPleb
       </h1>
       <p>Alpha — proof of concept app for Nostr-powered local connections.</p>
 
       <section>
-        <h2>local plebs around the world!</h2>
+        <h2>find plebs around the world!</h2>
         <div className="cards">
           <img alt="demo gif" src="/imgs/1.gif" style={{width: 260, height: 520, objectFit: 'cover'}}/>
           <img alt="screenshot 1" src="/imgs/2.jpg" style={{width: 260, height: 520, objectFit: 'cover'}}/>
