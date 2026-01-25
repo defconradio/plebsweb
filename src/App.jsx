@@ -1,12 +1,10 @@
 import React from 'react'
+import Main from './Main'
 
 export default function App() {
   return (
     <div className="app">
-      <header>
-        <h1>Plebs Web</h1>
-        <p>Vite + React scaffold ready for Vercel</p>
-      </header>
+      <Main />
     </div>
   )
 }
