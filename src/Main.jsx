@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const DOWNLOAD = 'https://github.com/defconradio/localpleb/releases/download/v1.0.0-alpha1/app-release.apk'
+const DOWNLOAD = 'https://github.com/defconradio/localpleb/releases/download/v1.0.0-alpha2/app-release.apk'
 const RELEASES = 'https://github.com/defconradio/localpleb/releases'
 const README  = 'https://github.com/defconradio/localplebs'
 
